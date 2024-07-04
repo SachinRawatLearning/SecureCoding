@@ -42,3 +42,23 @@ Version Control
         - Lock main branch and accept new code only through pull requests
         - Pull Requests Reviews
         - Different Deployment Resource
+
+
+Avoid Writing Insecure Code :
+
+    - Insecure Code
+    
+        - Untrusted Input
+            - HTML form values
+            - URL parameters
+            - HTTP Cookies, headers or bodies
+            - Data from databases or configuration files
+            - Validation should be there
+
+        - Vulnerability
+            - an actual instance of weakness
+        
+        - Payload
+            - Fuzzing : Generating and sending data
+            - Attack strings or exploits
+    
